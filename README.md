@@ -12,6 +12,9 @@ https://platform.openai.com/docs/introduction/overview
 - npm i dotenv openai (load .env file - and api we work with)
 - in package.json change how we start the app..
 
+- Warning: If your .env is already part of your Git repository, adding it to .gitignore will not remove it. In this case, you’ll also need to tell Git to stop tracking .env, which you can do with
+  `git rm --cached .env`
+
 ```
 "scripts": {
     "dev": "node script.js"
