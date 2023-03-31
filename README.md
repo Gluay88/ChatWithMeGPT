@@ -3,9 +3,9 @@ It's a Chat Application using OpenAI ChatGPT
 
 `npm run dev`
 
-https://platform.openai.com/account/api-keys
-OpenAI Documentation
-https://platform.openai.com/docs/introduction/overview
+- OpenAI Documentation (pined in chrome)
+  https://platform.openai.com/account/api-keys
+  https://platform.openai.com/docs/introduction/overview
 
 - .env get API_KEY (paste the api key in there)
 - npm init -y (generate package.json)
